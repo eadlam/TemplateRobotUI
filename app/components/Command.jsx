@@ -7,7 +7,7 @@ export default class Command extends React.Component {
     console.log("Writing command", this.props.data);
     return (
       <div>
-        <b>{this.props.data.type}</b>: {this.props.data.value}
+        <b>{this.props.data.type}</b>: {this.props.data.behavior_type}
       </div>
     );
   }

@@ -33,6 +33,6 @@ export default class App extends React.Component {
     CommandActions.select({name: 'drone_1'});
   }
 
-  
+
 
 }

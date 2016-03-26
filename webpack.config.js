@@ -5,7 +5,6 @@ const NpmInstallPlugin = require('npm-install-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const CleanPlugin = require('clean-webpack-plugin');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
-
 const pkg = require('./package.json');
 
 const TARGET = process.env.npm_lifecycle_event;
